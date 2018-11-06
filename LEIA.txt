@@ -1,0 +1,11 @@
+index - feito
+
+
+A FAZER
+
+Lista de cursos (arrumar as div) 
+tds as paginas de curso (colocar menu e ver se ta arrumada a identação)
+Arrumar pagina de noticias
+
+
+Criar pagina de login

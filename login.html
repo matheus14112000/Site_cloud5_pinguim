@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Página Inicial</title>
+        <title>Login</title>
         <link rel="stylesheet" type="text/css"  href="bootstrap.css" />
         <link rel="stylesheet" type="text/css"  href="teste.css" /> 
     </head>
@@ -13,7 +13,7 @@
         <header>
         <div class="topo">
             <a href="index.html"><img src="logo-novo.png" alt="Logo Impacta" class="logo-impacta"></a>
-            <a href="login.html"><button class="loginbtn"><img src="login.ico" alt="Botão Login" class="login-topo"> Login </button></a>
+            <a href="index.html"><button class="loginbtn"><img src="login.ico" alt="Botão Login" class="login-topo"> Login </button></a>
             
             <div class="dropdown">
                 <a href="noticias.html"><button class="dropbtn"><img src="news.png" alt="Notícias" class="noticias-topo"> Notícias </button></a>
@@ -32,9 +32,18 @@
         </div>
         </header>
 
-        <div class="cabecalho">
-            <h1 class="tituloh1"> Esta é a Home-Page do Grupo Cloud Five. </h1>
-            <img class="img-grupo" src="Grupo.jpg" alt="Imagem do grupo">
+        <div class="login-page">
+            <div class="form">
+                <form method="post" action="">
+                    <label for="user">LOGIN</label>
+                    <input type="text" id="user" name="user" placeholder="Digite seu RA"><br><br>
+
+                    <label for="password">SENHA</label>
+                    <input type="password" id="password" name="password"><br><br>
+                    
+                    <input type="submit" value="Login">
+                </form>
+            </div>
         </div>
 
     </body>
